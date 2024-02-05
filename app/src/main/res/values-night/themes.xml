@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Wishlist" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+
+        <item name="colorPrimary">@color/Blue</item>
+        <item name="colorPrimaryVariant">@color/lightBlue</item>
+        <item name="colorOnPrimary">@color/Blue</item>
+
+        <item name="colorSecondary">@color/black</item>
+        <item name="colorSecondaryVariant">@color/Yellow</item>
+        <item name="colorOnSecondary">@color/Green</item>
+        
+        <item name="android:statusBarColor" tools:targetApi="1">?attr/colorPrimary</item>
+    </style>
+</resources>
